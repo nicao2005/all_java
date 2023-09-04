@@ -9,7 +9,7 @@ public class JavaCode {
 		
 		System.out.printf("Insert a temperature in fahrenheit: ");
 		fahrenheit = read.nextDouble(); // scanning a double variable
-										// nextLine(), (char)System.in.read()
+						// nextLine(), (char)System.in.read()
 		read.close(); // closing the scanner object
 
 		celsius = ((fahrenheit-32)*5.0/9.0);
